@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:rich="http://richfaces.org/rich"> 
+
+<h:head>
+
+   <style>
+        /* Estilo base de la imagen */
+        img {
+        	align-content:center;
+            width: 50%; /* Ancho inicial */
+            height: auto; /* Altura automática para mantener la proporción original */
+            cursor: pointer; /* Cambia el cursor al pasar sobre la imagen */
+            transition: width 0.3s ease; /* Agrega una transición suave al cambiar el ancho */
+        }
+
+        
+    </style>
+
+</h:head> 
+<body> 
+
+	 <h:form>
+    
+         <div>
+        <h:graphicImage value="#{graficoBean.pastelChartImage}" />
+        <img src="resources/imagenes/grafica_pastel.png"/>
+
+    	</div>
+    
+    	
+    	
+    
+   
+    
+</h:form>
+
+</body> 
+</html>
